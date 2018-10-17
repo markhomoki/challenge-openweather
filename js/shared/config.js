@@ -1,0 +1,3 @@
+export default {
+	OPENWEATHER_API_KEY: 'e75d40223088a6862d8050376f393a03',
+};

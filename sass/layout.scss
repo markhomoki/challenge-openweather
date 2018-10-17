@@ -1,0 +1,102 @@
+@import 'mixins';
+@import 'variables';
+
+body {
+	margin: 0;
+}
+
+.site {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 8px;
+
+	@include until($tablet) {
+		padding: 4px;
+		font-size: 12px;
+	}
+}
+
+.site-inner {
+	width: 100%;
+	max-width: 680px;
+}
+
+.hide-on-mobile {
+	@include until($tablet) {
+		display: none;
+	}
+}
+
+table {
+	width: 100%;
+
+	td, th {
+		padding: 3px;
+
+		@include until($tablet) {
+			padding: 3px 1px;
+		}
+	}
+
+	td {
+		text-align: right;
+	}
+}
+
+select {
+	width: 100%;
+}
+
+.forecast-actions {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #DEDEDE;
+
+	.select-city-wrapper {
+		flex: 1;
+	}
+
+	.or {
+		display: block;
+		padding: 0 12px;
+	}
+
+	.csv-import-wrapper {
+		flex: 1;
+
+		input {
+			@include until($tablet) {
+				max-width: 150px;
+			}
+		}
+	}
+
+	.button {
+		margin-top: 4px;
+	}
+}
+
+.loader {
+	padding: 20px;
+	text-align: center;
+}
+
+.form-field-label {
+	display: block;
+	margin-bottom: 2px;
+}
+
+.button {
+	display: block;
+	background-color: blue;
+	color: #FFFFFF;
+	width: 100%;
+	padding: 5px;
+	font-size: 14px;
+	border: 0;
+	border-radius: 5px;
+}

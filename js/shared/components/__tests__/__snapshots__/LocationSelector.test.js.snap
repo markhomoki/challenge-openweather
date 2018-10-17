@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationSelector renders correctly 1`] = `
+<div
+  className="form-field-select"
+>
+  <span
+    className="form-field-label"
+  >
+    Select Location
+  </span>
+  <select
+    onChange={[Function]}
+    value="London,GB"
+  >
+    <option
+      value="London,GB"
+    >
+      London
+    </option>
+    <option
+      value="Paris,FR"
+    >
+      Paris
+    </option>
+    <option
+      value="Barcelona,ES"
+    >
+      Barcelona
+    </option>
+    <option
+      value="Rome,IT"
+    >
+      Rome
+    </option>
+  </select>
+  <button
+    className="button"
+    onClick={[Function]}
+    type="button"
+  >
+    Fetch
+  </button>
+</div>
+`;

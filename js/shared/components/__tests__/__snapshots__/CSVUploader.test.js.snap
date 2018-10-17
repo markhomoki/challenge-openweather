@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CSVUploader renders correctly 1`] = `
+<div
+  className="form-field-file-picker"
+>
+  <span
+    className="form-field-label"
+  >
+    Select File
+  </span>
+  <input
+    accept=".csv"
+    onChange={[Function]}
+    type="file"
+  />
+  <button
+    className="button"
+    onClick={[Function]}
+    type="button"
+  >
+    Import
+  </button>
+</div>
+`;

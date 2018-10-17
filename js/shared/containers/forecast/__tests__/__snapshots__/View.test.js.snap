@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View renders correctly 1`] = `
+<div
+  className="site-inner"
+>
+  <div
+    className="forecast-actions"
+  >
+    <div
+      className="select-city-wrapper"
+    >
+      <div
+        className="form-field-select"
+      >
+        <span
+          className="form-field-label"
+        >
+          Select Location
+        </span>
+        <select
+          onChange={[Function]}
+          value="London,GB"
+        >
+          <option
+            value="London,GB"
+          >
+            London
+          </option>
+          <option
+            value="Paris,FR"
+          >
+            Paris
+          </option>
+          <option
+            value="Barcelona,ES"
+          >
+            Barcelona
+          </option>
+          <option
+            value="Rome,IT"
+          >
+            Rome
+          </option>
+        </select>
+        <button
+          className="button"
+          onClick={[Function]}
+          type="button"
+        >
+          Fetch
+        </button>
+      </div>
+    </div>
+    <span
+      className="or"
+    >
+      OR
+    </span>
+    <div
+      className="csv-import-wrapper"
+    >
+      <div
+        className="form-field-file-picker"
+      >
+        <span
+          className="form-field-label"
+        >
+          Select File
+        </span>
+        <input
+          accept=".csv"
+          onChange={[Function]}
+          type="file"
+        />
+        <button
+          className="button"
+          onClick={[Function]}
+          type="button"
+        >
+          Import
+        </button>
+      </div>
+    </div>
+  </div>
+  <h1>
+    Weather Forecast
+  </h1>
+  <p
+    className="loader"
+  >
+    Loading...
+  </p>
+</div>
+`;
